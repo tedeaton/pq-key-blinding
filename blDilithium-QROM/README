@@ -1,0 +1,8 @@
+Implementation for blDilithium-QROM.
+
+Requires Sage to run.
+
+To run:
+sage bl_dilithium_qrom_sage_compl.sage
+
+The 'rep' variable within that file changes the number of iterations in the test.

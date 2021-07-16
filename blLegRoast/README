@@ -1,0 +1,18 @@
+Implementation for blLegRoast.
+This is a fork of the original LegRoast code, taken from https://github.com/WardBeullens/LegRoast
+
+To test the blinding,
+    make blindtest
+    ./blindtest
+
+To test the original LegRoast code for comparison:
+    make test
+    ./test
+
+
+Tested on Ubuntu 18.04.4 LTS
+required packages:
+gcc
+xsltproc
+libssl-dev
+libgmp-dev

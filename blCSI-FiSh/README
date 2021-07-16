@@ -1,0 +1,19 @@
+Implementation for blCSI-FiSh.
+This is a fork of the original CSI-FiSh code, taken from https://github.com/KULeuven-COSIC/CSI-FiSh
+
+
+To test the blinding,
+    make blindtest
+    ./blindtest
+
+To test the original CSI-FiSh code for comparison:
+    make testcsifish
+    ./testcsifish
+
+
+Tested on Ubuntu 18.04.4 LTS
+required packages:
+gcc
+xsltproc
+libssl-dev
+libgmp-dev
